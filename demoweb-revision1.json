@@ -2,7 +2,7 @@
     "taskDefinitionArn": "arn:aws:ecs:us-west-2:697224503783:task-definition/demoweb:1",
     "containerDefinitions": [
         {
-            "name": "site",
+            "name": "demoweb",
             "image": "697224503783.dkr.ecr.us-west-2.amazonaws.com/demoweb-repo:latest",
             "cpu": 0,
             "portMappings": [
